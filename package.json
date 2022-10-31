@@ -1,0 +1,31 @@
+{
+   "name": "tradeswap-backend",
+   "version": "1.0.0",
+   "description": "To have a local copy of the project to work on clone the repository using the command `git clone https://github.com/Daniija/TradeSwap-Backend.git` in the terminal.",
+   "main": "index.js",
+   "scripts": {
+      "start": "node app.js",
+      "devStart": "nodemon app.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Daniija/TradeSwap-Backend.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Daniija/TradeSwap-Backend/issues"
+   },
+   "homepage": "https://github.com/Daniija/TradeSwap-Backend#readme",
+   "dependencies": {
+      "bcrypt": "^5.0.1",
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.6.5",
+      "nodemon": "^2.0.20"
+   }
+}
